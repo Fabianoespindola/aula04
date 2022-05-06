@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  background: #232332;
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5rem;
+  padding: 2rem;
+  background: #e8e8e8;
+}
+
+.box {
+  width: 5rem;
+  height: 5rem;
+  background: crimson;
+}
+
+.rotate-positiva {
+  transform: rotate(45deg);
+}
+
+.rotate-negativa {
+  transform: rotate(-30deg);
+}
+
+.skew-x-positiva {
+  transform: skewX(20deg);
+}
+
+.skew-x-negativa {
+  transform: skewX(-20deg);
+}
+
+.skew-y-positiva {
+  transform: skewy(20deg);
+}
+
+.skew-y-negativa {
+  transform: skewy(-20deg);
+}
+
+.scale-x-positiva {
+  transform: scalex(1.5);
+}
+
+.scale-x-negativa {
+  transform: scaleX(0.5);
+}
+
+.scale-y-positiva {
+  transform: scaley(1.5);
+}
+
+.scale-y-negativa {
+  transform: scaley(0.5);
+}
+
+
+.skew-xy-negativa {
+transform: skew(-25deg, -25deg);
+}
+
+.skew-xy-positiva {
+  transform: skew(15deg, 15deg);
+}
+
+.scale-xy-negativa {
+  transform: scale(0.75, 0.5);
+  }
+
+  .scale-xy-positiva {
+    transform: scale(1.25, 2);
+  }
+
+
+

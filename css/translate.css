@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+width: 100vw;
+height: 100vh;
+}
+
+body {
+background: #232332;
+display: flex;
+justify-content: center;
+
+align-items: center;
+}
+
+main {
+display: grid;
+gap: 2rem;
+padding: 2rem;
+background: #e8e8e8
+}
+
+.box {
+width: 5rem;
+height: 5rem;
+background: crimson;
+
+}
+.translate-x-positivo {
+  transform: translateX(2rem);
+}
+
+.translate-x-negativo {
+transform: translateX(-2rem);
+}
+.translate-x-positivo{
+  transform: translatey(2rem);
+}
+
+.translate-x-negativo {
+transform: translatey(-2rem);
+
+}
+
+
+
+
+
+
+
+
